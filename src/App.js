@@ -37,7 +37,7 @@ function ColorPicker () {
     <div style={{
       position: 'absolute',
       top: "70%",
-      left: "35%",
+      left: "30%",
       // border: "1px solid black",
       display: 'flex',
       alignItems: 'flex-end',
