@@ -37,7 +37,7 @@ function ColorPicker () {
     <div style={{
       position: 'absolute',
       top: "70%",
-      left: "30%",
+      left: "35%",
       // border: "1px solid black",
       display: 'flex',
       alignItems: 'flex-end',
@@ -45,7 +45,7 @@ function ColorPicker () {
       zIndex: 1,
       }}>
       {colors.map((color, key) => (
-       <div style={{backgroundColor: color, width: 50, height: 50, borderRadius: 50, cursor: 'pointer', margin: 5}}
+       <div style={{backgroundColor: color, width: 40, height: 40, borderRadius: 50, cursor: 'pointer', margin: 5}}
         onClick={() => (state.items[snap.current] = colors[key])}>
         </div>
       ))}
