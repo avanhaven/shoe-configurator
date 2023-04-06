@@ -108,7 +108,7 @@ export default function App() {
     <>
       <div style={{
         width: '100%',
-        height: '80%',
+        height: '100%',
         zIndex: 2,
       }}>
       <Canvas shadows camera={{ position: [0, 0, 4], fov: 50 }} >
