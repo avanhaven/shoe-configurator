@@ -35,7 +35,10 @@ function ColorPicker () {
   const snap = useSnapshot(state);
   return (
     <div style={{
-      border: "1px solid black",
+      position: 'absolute',
+      top: "70%",
+      left: "30%",
+      // border: "1px solid black",
       display: 'flex',
       alignItems: 'flex-end',
       justifyContent: 'center',
